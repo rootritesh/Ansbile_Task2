@@ -37,4 +37,4 @@ ansbile-playbook --ask-vault-pass PLAYBOOK.yml
 
 
 # Detailed explanation 
-[AnsibleTask2]()
+[AnsibleTask2](https://medium.com/@rootritesh64/deploy-webserver-on-aws-using-ansible-dynamic-inventory-19b5aeca87f4)
