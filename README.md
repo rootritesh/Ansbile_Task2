@@ -7,6 +7,8 @@
 * subnet_id
 * aws_region
 * security_group_id
+* access_key
+* secret_key
 
 ### Variables in webserver Role:
 * package_name
