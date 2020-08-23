@@ -1,0 +1,8 @@
+---
+# vars file for ec2
+aws_instance_type: "t2.micro"
+ami_id: "ami-0ebc1ac48dfd14136"
+aws_instance_tags: "ansbiletask2"
+subnet_id: "subnet-1105675d"
+aws_region: "ap-south-1"
+security_group_id: "sg-0c4f0f47c1079e930"

@@ -1,0 +1,18 @@
+---
+# tasks file for ec2
+- name: launchdos
+  ec2:
+    key_name: "ansbiletask2"
+    instance_type: "{{ aws_instance_type }}"
+    image: "{{ ami_id }}"
+    wait: yes
+    count: 1
+    instance_tags:
+      Name: "{{ aws_instance_tags }}"
+    vpc_subnet_id: "{{ subnet_id }}"
+    assign_public_ip: yes
+    region: "{{ aws_region }}"
+    state: present
+    group_id: "{{  security_group_id  }}"
+    aws_access_key: "{{ access_key }}"
+    aws_secret_key: "{{ secret_key }}"

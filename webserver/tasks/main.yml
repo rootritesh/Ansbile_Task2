@@ -1,0 +1,24 @@
+---
+# tasks file for webserver
+
+- name: httpdconf
+  package:
+    name: "{{ package_name }}"
+    state: present
+
+- name: git install
+  package:
+    name: "git"
+    state: present      
+
+- name: start httpd     
+  service:
+    name: "{{ package_name }}"
+    state: started   
+    enabled: yes
+
+- name: git for copy code
+  git:
+    repo: "{{ git_repo }}"
+    clone: yes
+    dest: "{{ location }}"

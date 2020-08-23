@@ -1,0 +1,6 @@
+---
+# vars file for webserver
+package_name: "httpd"
+git_repo: "YOUR_GITHUB_REPO"
+location: "/var/www/html"
+
