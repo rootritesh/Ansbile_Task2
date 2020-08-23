@@ -7,6 +7,8 @@
 * subnet_id
 * aws_region
 * security_group_id
+
+### Vault variable in ec2 Role:
 * access_key
 * secret_key
 
