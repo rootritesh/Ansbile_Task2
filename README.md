@@ -24,7 +24,7 @@
 ```bash
 hosts: HOSTS_NAME
 roles:
- - roles: ROLE_NAME(Ex=> ec2,webserver)
+ - role: ROLE_NAME(Ex=> ec2,webserver)
 ```
 
 ## Command
